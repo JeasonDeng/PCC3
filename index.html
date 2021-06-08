@@ -178,7 +178,7 @@
       #content > ul {
         position: relative;
         top: 0;
-        transition: top 1s;
+        transition: top .6s;
       }
 
       #content > ul > li {
@@ -1466,7 +1466,7 @@
           clearTimeout(timer)
           timer = setTimeout(function () {
             fn(e)
-          }, 100)
+          }, 36)
         }
         content.addEventListener &&
           content.addEventListener('DOMMouseScroll', function (e) {
@@ -1475,7 +1475,7 @@
             clearTimeout(timer)
             timer = setTimeout(function () {
               fn(e)
-            }, 100)
+            }, 36)
           })
 
         function fn(e) {
